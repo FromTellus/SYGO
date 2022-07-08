@@ -6,7 +6,9 @@ Simple functionality is there. A few pre-set locations for the user and the opti
 
 Features missing but might be implemented if it gets picked up again at later time :
 
+
   // Not in order of importance
+  
 
   Saving a custom location.
   
