@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "nodemon": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-salt": "^1.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "salt",
+      "salt/react",
+      "salt/react/hooks"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.19"
+  },
+  "type": "module"
+}
+

@@ -1,0 +1,276 @@
+body {
+  align-items: center;
+  justify-content: center;
+  background-color: #4682b4;
+  margin: 15px;
+}
+
+.App-header {
+  background-color: #4682b4;
+  min-height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-header > h1 {
+  margin: 10px;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+
+.App {
+  text-align: center;
+  background-color: #4682b4;
+  color: white;
+}
+
+.Weather-info
+{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #4682b4;
+  color: white;
+  
+}
+
+.daily-lowest-temp {
+  border: 1px solid #1f5e8a;
+  background-color: #1f5e8a;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 150px;
+  min-width: 100px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.daily-highest-temp {
+  border: 1px solid #1f5e8a;
+  background-color: #1f5e8a;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 150px;
+  min-width: 100px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+
+
+
+
+}
+
+.daily-rain {
+  border: 1px solid #1f5e8a;
+  background-color: #1f5e8a;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 150px;
+  min-width: 100px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.input__location {
+  border: 1px solid #1f5e8a;
+  background-color: #1f5e8a;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.input__field {
+  text-align: center;
+  margin: 10px;
+  width: 105px;
+  max-width: 500px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #4682b4;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+/* .btn--submit {
+  margin: 10px;
+  width: 50%;
+  max-width: 500px;
+  padding: 10px;
+  border: none;
+  border: 1px solid #1f5e8a;
+  border-radius: 50px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.btn--submit:hover {
+  background: #1f5e8a;
+  color: white;
+  cursor: pointer;
+} */
+
+.footer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  left: 0;
+  color: white;
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.App--info {
+  padding: 20px;
+}
+
+.select--location {
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  color: white;
+
+}
+
+.input__location > input {
+  border: none;
+}
+
+/* .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 500px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+} */
+
+.rounded-social-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin: 10px;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
