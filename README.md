@@ -23,5 +23,6 @@ Features missing but might be implemented if it gets picked up again at later ti
   Tighten calibration of weather by using the hourly parameters instead of daily.
   
   Maybe let user set their own comfort parameters and respond accordingly?
+  
   Set an actual link to the movie being recommended.
   
