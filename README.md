@@ -1,6 +1,6 @@
 # SYGO
 
-Created during a hack day at </Salt>
+Created during a hack day at Salt.
 
 Simple functionality is there. A few pre-set locations for the user and the option to set their own location via longitude and latitude.
 
