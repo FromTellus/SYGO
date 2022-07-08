@@ -4,10 +4,10 @@ Created during a hack day at Salt.
 
 Simple functionality is there. A few pre-set locations for the user and the option to set their own location via longitude and latitude.
 
-Features missing but might be implemented if it gets picked up again at later time :
+Features missing but might be implemented if it gets picked up again at a later time :
 
 
-  /* Not in order of importance */
+  //* Not in order of importance *//
   
 
   Saving a custom location.
